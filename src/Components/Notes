@@ -1,0 +1,47 @@
+// CRUD operation - it is a single page application
+// bootstrap
+// created components i.e is layouts and pages
+// inside layout we have created navbar componet to make it easy
+// n inside pages we hav created 4 components - home,about, contact, nopage
+// Navbar- we have created a navbar for follwing componets n wrote home,about,contact for futher navigation
+// to route the particular page using URL using browser router- need to intsall router 
+// we also used link to navigate from one page to another page 
+//also we have to maintain a backend file for a information storing, for that we will be using fake api that is
+// json server , 1st we need to install json server and create a separate file db.json and some dummy data's 
+//n open the port using json server- 
+//now will install axios for to send an requestto get,post
+
+//*Axios -In ReactJS, Axios is a library that serves to create HTTP requests that are present externally.
+ *It is evident from the fact that we may sometimes in React applications need to get data from the external source.
+ It is quite difficult to fetch such data so that they can be normally shown on the website. 
+ Thus, it helps in retrieving the data thereby adding it to the state to facilitate the 
+ application whenever the requirement arises.
+
+ *State is somtheing which holds some datas or values for storing
+ //useState - The React useState Hook allows us to have state variables in a functional component.
+ The current state.
+ A function that updates the state
+
+ // useEffect - The useEffect Hook allows you to perform side effects in your components -fetching data, directly updating the DOM, and timers. useEffect accepts two arguments. The second argument is optional.
+ useEffect(<function>, <dependency>)
+
+
+axios arguments -
+ get -req to get the information
+post -to add the data
+put- to update the data
+delete -to delete the data
+
+//create a table for name username and email and actions for view edit delete, n add button in navbar for add users
+
+//aysnc and await-
+
+The map function, in simple terms, produces a new array from an existing one. The map method basically runs a function for each item in the array. The objects returned by this method are stored in the new array.
+
+
+
+
+
+
+// Vedio stopped at 1.13.1
+
